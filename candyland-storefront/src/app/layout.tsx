@@ -18,7 +18,7 @@ export const metadata = {
 	description: 'Your daily dose of sweet chaos!',
 };
 
-export default function RootLayout(props: {children: React.ReactNode;}) {
+export default async function RootLayout(props: {children: React.ReactNode;}) {
 	return (
 	// 2. Apply the font variable to the HTML element
 		<html lang="en" className={`${bangers.variable}`}>
